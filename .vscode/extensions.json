@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "davidanson.vscode-markdownlint",
+    "richie5um2.vscode-sort-json",
+    "sibiraj-s.vscode-scss-formatter"
+  ]
+}
