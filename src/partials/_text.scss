@@ -1,0 +1,7 @@
+$types: start, center, end;
+
+@each $type in $types {
+  .text-align-#{$type} {
+    text-align: #{$type};
+  }
+}
