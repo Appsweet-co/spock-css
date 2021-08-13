@@ -1,0 +1,7 @@
+$types: block, contents, flex, grid, inline, inline-block, inline-flex, inline-grid, none;
+
+@each $type in $types {
+  .display-#{$type} {
+    display: #{$type};
+  }
+}

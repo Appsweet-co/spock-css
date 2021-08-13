@@ -1,0 +1,19 @@
+{
+  "name": "spock-css",
+  "version": "0.1.0",
+  "description": "A CSS utility library using logical properties",
+  "main": "index.css",
+  "scripts": {
+    "build": "npx sass ./src/index.scss:./build/index.css",
+    "clean": "rm -rf ./**/*.{css,css.map}",
+    "mini": "npx sass -s compressed ./src/index.scss:./build/index.css"
+  },
+  "keywords": [
+    "css",
+    "utility",
+    "logical",
+    "properties"
+  ],
+  "author": "Appsweet.co <hi@appsweet.co>",
+  "license": "MIT"
+}

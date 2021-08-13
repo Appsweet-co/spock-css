@@ -1,0 +1,7 @@
+$types: absolute, fixed, relative, static, sticky;
+
+@each $type in $types {
+  .position-#{$type} {
+    position: #{$type};
+  }
+}
