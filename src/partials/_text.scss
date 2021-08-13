@@ -1,4 +1,4 @@
-$types: start, center, end;
+$types: start, center, end, justify;
 
 @each $type in $types {
   .text-align-#{$type} {
