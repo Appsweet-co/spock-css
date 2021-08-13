@@ -1,0 +1,56 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.wordWrap": "off"
+  },
+  "css.lint.argumentsInColorFunction": "error",
+  "css.lint.boxModel": "ignore",
+  "css.lint.compatibleVendorPrefixes": "warning",
+  "css.lint.duplicateProperties": "error",
+  "css.lint.emptyRules": "error",
+  "css.lint.float": "warning",
+  "css.lint.fontFaceProperties": "warning",
+  "css.lint.hexColorLength": "error",
+  "css.lint.idSelector": "error",
+  "css.lint.ieHack": "error",
+  "css.lint.importStatement": "ignore",
+  "css.lint.important": "warning",
+  "css.lint.propertyIgnoredDueToDisplay": "warning",
+  "css.lint.universalSelector": "error",
+  "css.lint.unknownProperties": "warning",
+  "css.lint.unknownVendorSpecificProperties": "ignore",
+  "css.lint.vendorPrefix": "warning",
+  "css.lint.zeroUnits": "error",
+  "css.validate": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+  },
+  "editor.formatOnSave": true,
+  "json.format.enable": true,
+  "json.schemaDownload.enable": true,
+  "scss.lint.argumentsInColorFunction": "error",
+  "scss.lint.boxModel": "ignore",
+  "scss.lint.compatibleVendorPrefixes": "warning",
+  "scss.lint.duplicateProperties": "error",
+  "scss.lint.emptyRules": "error",
+  "scss.lint.float": "warning",
+  "scss.lint.fontFaceProperties": "warning",
+  "scss.lint.hexColorLength": "error",
+  "scss.lint.idSelector": "error",
+  "scss.lint.ieHack": "error",
+  "scss.lint.importStatement": "ignore",
+  "scss.lint.important": "warning",
+  "scss.lint.propertyIgnoredDueToDisplay": "warning",
+  "scss.lint.universalSelector": "error",
+  "scss.lint.unknownProperties": "warning",
+  "scss.lint.unknownVendorSpecificProperties": "ignore",
+  "scss.lint.vendorPrefix": "warning",
+  "scss.lint.zeroUnits": "error",
+  "scss.validate": true,
+  "explorer.compactFolders": false
+}
