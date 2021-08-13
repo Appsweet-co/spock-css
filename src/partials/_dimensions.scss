@@ -1,0 +1,15 @@
+$types: block, inline;
+
+@each $type in $types {
+  [style*="--#{$type}-size"] {
+    #{$type}-size: var(--#{$type}-size);
+  }
+
+  [style*="--max-#{$type}-size"] {
+    max-#{$type}-size: var(--max-#{$type}-size);
+  }
+
+  [style*="--min-#{$type}-size"] {
+    min-#{$type}-size: var(--min-#{$type}-size);
+  }
+}
