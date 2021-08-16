@@ -1,0 +1,8 @@
+.vscode/
+src/
+
+.editorconfig
+.gitignore
+.npmrc
+blueprint.json
+blueprint.md
