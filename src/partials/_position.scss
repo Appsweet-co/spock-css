@@ -1,7 +1,26 @@
 $types: absolute, fixed, relative, static, sticky;
+$insets: block, inline;
 
 @each $type in $types {
   .position-#{$type} {
     position: #{$type};
+  }
+}
+
+[style*="--inset"] {
+  inset: var(--inset);
+}
+
+@each $inset in $insets {
+  [style*="--inset-#{$inset}"] {
+    inset-#{$inset}: var(--inset-#{$inset});
+  }
+
+  [style*="--inset-#{$inset}-start"] {
+    inset-#{$inset}-start: var(--inset-#{$inset}-start);
+  }
+
+  [style*="--inset-#{$inset}-end"] {
+    inset-#{$inset}-end: var(--inset-#{$inset}-end);
   }
 }
