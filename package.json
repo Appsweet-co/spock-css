@@ -6,7 +6,8 @@
   "scripts": {
     "build": "npx sass ./src/index.scss:./build/index.css",
     "clean": "rm -rf ./**/*.{css,css.map,min.css,min.css.map}",
-    "mini": "npx sass -s compressed ./src/index.scss:./build/index.min.css"
+    "mini": "npx sass -s compressed ./src/index.scss:./build/index.min.css",
+    "readme": "npx @appnest/readme generate"
   },
   "keywords": [
     "css",
