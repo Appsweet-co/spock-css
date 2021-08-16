@@ -2,18 +2,19 @@
   "name": "@appsweet-co/spock-css",
   "version": "0.1.0",
   "description": "A complete CSS utility library using logical properties",
-  "main": "index.css",
+  "main": "build/index.min.css",
   "scripts": {
     "build": "npx sass ./src/index.scss:./build/index.css",
     "clean": "rm -rf ./**/*.{css,css.map,min.css,min.css.map}",
-    "mini": "npx sass -s compressed ./src/index.scss:./build/index.min.css",
+    "minify": "npx sass -s compressed ./src/index.scss:./build/index.min.css",
     "readme": "npx @appnest/readme generate"
   },
   "keywords": [
     "css",
-    "utility",
+    "library",
     "logical",
-    "properties"
+    "properties",
+    "utility"
   ],
   "author": "Appsweet.co <http://a6t.co>",
   "license": "MIT"
