@@ -1,8 +1,7 @@
 {{ template:logo }}
 {{ template:title }}
 {{ template:description }}
-<!-- {{ template:badges }} -->
-<!-- {{ template:toc }} -->
+{{ template:badges }}
 
 Spock CSS is a lightweight, theme-agnostic utility library. It uses [logical properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties) instead of the traditional directions and dimensions. This makes it easy to internationalize your projects. 
 

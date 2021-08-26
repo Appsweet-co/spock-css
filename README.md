@@ -13,23 +13,23 @@
 <!-- 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#table-of-contents)
 
-## ➤ Table of Contents
+## Table of Contents
 
-* [➤ Design Goals](#-design-goals)
+* [Design Goals](#design-goals)
 	* [Utility First](#utility-first)
 	* [Logical Properties](#logical-properties)
 	* [Native CSS Functions](#native-css-functions)
 	* [Theme Agnostic](#theme-agnostic)
 	* [Verbose Names](#verbose-names)
-* [➤ Default Scale](#-default-scale)
-* [➤ Updating This README](#-updating-this-readme) -->
+* [Default Scale](#default-scale)
+* [Updating This README](#updating-this-readme) -->
 
 Spock CSS is a lightweight, theme-agnostic utility library. It uses [logical properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties) instead of the traditional directions and dimensions. This makes it easy to internationalize your projects. 
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#design-goals)
 
-## ➤ Design Goals
+## Design Goals
 
 ### Utility First
 
@@ -70,7 +70,7 @@ Abbreviations hard to grok. Our class names and CSS variables mirror the selecto
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#default-scale)
 
-## ➤ Default Scale
+## Default Scale
 
 The default scale includes five t-shirt sizes with the following values:
 
@@ -89,7 +89,7 @@ Use standard CSS cascade rules to override this scale.
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#updating-this-readme)
 
-## ➤ Updating This README
+## Updating This README
 
 We generate this README with the [@appnest/readme](https://github.com/andreasbm/readme) tool.
 
