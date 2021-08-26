@@ -1,7 +1,7 @@
 {
   "name": "@appsweet-co/spock-css",
   "version": "0.1.0",
-  "description": "A complete CSS utility library using logical properties",
+  "description": "A lightweight, theme-agnostic CSS utility library using logical properties",
   "main": "build/index.min.css",
   "scripts": {
     "build": "npx sass ./src/index.scss:./build/index.css",
