@@ -1,26 +1,10 @@
 $types: block, inline;
 
-.border-none {
-  border: none;
-}
-
 [style*="--border"] {
   border: var(--border);
 }
 
 @each $type in $types {
-  .border-#{$type}-none {
-    border-#{$type}: none;
-  }
-
-  .border-#{$type}-start-none {
-    border-#{$type}-start: none;
-  }
-
-  .border-#{$type}-end-none {
-    border-#{$type}-end: none;
-  }
-
   [style*="--border-#{$type}"] {
     --border-#{$type}: var(--border-#{$type});
   }
