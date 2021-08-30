@@ -4,6 +4,7 @@
 @use "./partials/position";
 @use "./partials/flexbox";
 @use "./partials/dimensions";
+@use "./partials/aspect-ratio";
 
 @use "./partials/margin";
 @use "./partials/padding";
@@ -15,5 +16,3 @@
 @use "./partials/font";
 
 @use "./partials/color";
-
-@use "./partials/aspect-ratio";

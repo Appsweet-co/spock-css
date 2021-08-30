@@ -1,28 +1,3 @@
-// https://css-tricks.com/aspect-ratio-boxes/
-
-[style*="--aspect-ratio"] > :first-child {
-  inline-size: 100%;
-}
-
-[style*="--aspect-ratio"] > img {
-  block-size: auto;
-}
-
-@supports (--custom: property) {
-  [style*="--aspect-ratio"] {
-    position: relative;
-  }
-
-  [style*="--aspect-ratio"]::before {
-    content: "";
-    display: block;
-    padding-block-end: calc(100% / (var(--aspect-ratio)));
-  }
-
-  [style*="--aspect-ratio"] > :first-child {
-    position: absolute;
-    inset-block-start: 0;
-    inset-inline-start: 0;
-    block-size: 100%;
-  }
+[style*="--aspect-ratio"] {
+  aspect-ratio: var(--aspect-ratio);
 }
