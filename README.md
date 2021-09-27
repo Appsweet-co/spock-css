@@ -9,22 +9,9 @@
 
 <br />
 
-<!-- {{ template:badges }} -->
-<!-- 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#table-of-contents)
+{{ template:badges }}
 
-## Table of Contents
-
-* [Design Goals](#design-goals)
-	* [Utility First](#utility-first)
-	* [Logical Properties](#logical-properties)
-	* [Native CSS Functions](#native-css-functions)
-	* [Theme Agnostic](#theme-agnostic)
-	* [Verbose Names](#verbose-names)
-* [Default Scale](#default-scale)
-* [Updating This README](#updating-this-readme) -->
-
-Spock CSS is a lightweight, theme-agnostic utility library. It uses [logical properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties) instead of the traditional directions and dimensions. This makes it easy to internationalize your projects. 
+Spock CSS is a lightweight CSS utility library. It uses [logical properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties) instead of the traditional directions and dimensions. This makes it easy to internationalize your projects. 
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#design-goals)
@@ -65,26 +52,33 @@ We make no assumptions about your project's theme. Use our CSS Variables as need
 
 ### Verbose Names
 
-Abbreviations hard to grok. Our class names and CSS variables mirror the selectors they reference. This makes our CSS easy to read and write.
+Abbreviations are hard to grok. Our classes and variables mirror the selectors they reference. This makes it easy to read and write.
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#default-scale)
 
 ## Default Scale
 
-The default scale includes five t-shirt sizes with the following values:
+The default scale includes five t-shirt sizes that work well with [8pt grids](https://spec.fm/specifics/8-pt-grid):
 
 ```css
 :root {
-  --scale-xs: 0.5rem;
-  --scale-sm: 1.5rem;
-  --scale-md: 2.5rem;
-  --scale-lg: 3.5rem;
-  --scale-xl: 4.5rem;
+  --spock-scale-xs: 0.5rem;
+  --spock-scale-sm: 1.5rem;
+  --spock-scale-md: 2.5rem;
+  --spock-scale-lg: 3.5rem;
+  --spock-scale-xl: 4.5rem;
 }
 ```
 
 Use standard CSS cascade rules to override this scale. 
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#css-reset)
+
+## CSS Reset
+
+We use [Eric Meyer's CSS Reset](src/partials/_reset.scss) to reduce inconsistencies between browsers.
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#updating-this-readme)
