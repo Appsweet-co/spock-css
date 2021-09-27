@@ -13,15 +13,15 @@ $types: block, inline;
 
   @each $key, $val in scale.$scale {
     .padding-#{$type}-#{$key} {
-      padding-#{$type}: var(--scale-#{$key});
+      padding-#{$type}: var(--spock-scale-#{$key});
     }
 
     .padding-#{$type}-start-#{$key} {
-      padding-#{$type}-start: var(--scale-#{$key});
+      padding-#{$type}-start: var(--spock-scale-#{$key});
     }
 
     .padding-#{$type}-end-#{$key} {
-      padding-#{$type}-end: var(--scale-#{$key});
+      padding-#{$type}-end: var(--spock-scale-#{$key});
     }
   }
 }

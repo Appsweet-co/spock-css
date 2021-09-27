@@ -8,6 +8,6 @@ $scale: (
 
 :root {
   @each $key, $val in $scale {
-    --scale-#{$key}: var(--scale-#{$key}, #{$val});
+    --spock-scale-#{$key}: #{$val};
   }
 }

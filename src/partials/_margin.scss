@@ -13,15 +13,15 @@ $types: block, inline;
 
   @each $key, $val in scale.$scale {
     .margin-#{$type}-#{$key} {
-      margin-#{$type}: var(--scale-#{$key});
+      margin-#{$type}: var(--spock-scale-#{$key});
     }
 
     .margin-#{$type}-start-#{$key} {
-      margin-#{$type}-start: var(--scale-#{$key});
+      margin-#{$type}-start: var(--spock-scale-#{$key});
     }
 
     .margin-#{$type}-end-#{$key} {
-      margin-#{$type}-end: var(--scale-#{$key});
+      margin-#{$type}-end: var(--spock-scale-#{$key});
     }
   }
 }
