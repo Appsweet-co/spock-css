@@ -1,7 +1,7 @@
 {{ template:logo }}
 {{ template:title }}
 {{ template:description }}
-{{ template:badges }}
+<!-- {{ template:badges }} -->
 
 Spock CSS is a lightweight CSS utility library. It uses [logical properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties) instead of the traditional directions and dimensions. This makes it easy to internationalize your projects. 
 
@@ -9,15 +9,15 @@ Spock CSS is a lightweight CSS utility library. It uses [logical properties](htt
 
 ### Utility First
 
-We use [utility classes](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/) and [utility styles](https://www.bonsaicss.com/#style-based-utilities) when possible. Utilities are easy to reuse. They do one thing in the same way every time with no side effects. They keep the [CSS specificity](https://specificity.keegan.st/) flat and also eliminate the need to [invent new names](https://en.wikipedia.org/wiki/Principle_of_least_astonishment).
+We use [utility classes](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/) and [utility styles](https://www.bonsaicss.com/#style-based-utilities) when possible. Utilities are easy to reuse. They do one thing in the same way every time with no side effects. They keep the [CSS specificity](https://specificity.keegan.st/) flat and eliminate the need to [invent new names](https://en.wikipedia.org/wiki/Principle_of_least_astonishment).
 
 :dart: ***PRO TIP: Read [this article](https://frontstuff.io/in-defense-of-utility-first-css) for more info on why Utility-First CSS is a good thing.***
 
 We use both [class selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) and variables assigned to the [`style` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style).
 
-- CSS Classes _limit_ options to a small number of known values. Options should align with our [generic scale](src/theme/utility/_scale.scss) when possible. Examples: [padding](src/theme/utility/_padding.scss), [text](src/theme/utility/_text.scss).
+- CSS Classes _limit_ options to a small number of known values. Options should align with our [generic scale](src/partials/_scale.scss) when possible. Examples: [padding](src/partials/_padding.scss), [text](src/partials/_text.scss).
 
-- CSS Variables _widen_ options to a large number of unknown values. Examples: [aspect-ratio](src/theme/utility/_aspect-ratio.scss), [dimensions](src/theme/utility/_dimensions.scss).
+- CSS Variables _widen_ options to a large number of unknown values. Examples: [aspect-ratio](src/partials/_aspect-ratio.scss), [dimensions](src/partials/_dimensions.scss).
 
 ### Logical Properties
 
@@ -33,10 +33,10 @@ We encourage the use of [native CSS functions](https://developer.mozilla.org/en-
 
 ### Theme Agnostic
 
-We make no assumptions about your project's theme. Use our CSS Variables as needed to set your theme. Example:
+We make no assumptions about your project's theme. Use CSS variables as needed to set properties. Example:
 
 ```html
-<h1 style="--color: var(--primary)">Hello World</h1>
+<h1 style="--color: var(--primary); --font-size:var(--size-lg)">Hello World</h1>
 ```
 
 ### Verbose Names
@@ -59,9 +59,9 @@ The default scale includes five t-shirt sizes that work well with [8pt grids](ht
 
 Use standard CSS cascade rules to override this scale. 
 
-## CSS Reset
+## Baseline CSS
 
-We use [Eric Meyer's CSS Reset](src/partials/_reset.scss) to reduce inconsistencies between browsers.
+We make no assumptions about your project's baseline CSS. Manually reset properties or use a [CSS Reset tool](http://meyerweb.com/eric/tools/css/reset/) as needed.
 
 ## Updating This README
 
