@@ -1,14 +1,6 @@
 {
-  "name": "@appsweet-co/spock-css",
-  "version": "0.1.0",
+  "author": "Appsweet.co <http://a6t.co>",
   "description": "A lightweight, theme-agnostic CSS utility library using logical properties",
-  "main": "build/index.min.css",
-  "scripts": {
-    "build": "npx sass ./src/index.scss:./build/index.css",
-    "clean": "rm -rf ./**/*.{css,css.map,min.css,min.css.map}",
-    "minify": "npx sass -s compressed ./src/index.scss:./build/index.min.css",
-    "readme": "npx @appnest/readme generate"
-  },
   "keywords": [
     "css",
     "library",
@@ -16,6 +8,14 @@
     "properties",
     "utility"
   ],
-  "author": "Appsweet.co <http://a6t.co>",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "build/index.min.css",
+  "name": "@appsweet-co/spock-css",
+  "scripts": {
+    "build": "npx sass ./src/index.scss:./build/index.css",
+    "clean": "rm -rf ./**/*.{css,css.map,min.css,min.css.map}",
+    "minify": "npx sass -s compressed ./src/index.scss:./build/index.min.css",
+    "readme": "npx @appnest/readme generate"
+  },
+  "version": "0.1.0"
 }
