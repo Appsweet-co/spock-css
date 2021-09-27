@@ -2,10 +2,8 @@
 
 $weights: 100, 200, 300, 400, 500, 600, 700, 800, 900, bold, bolder, lighter, normal;
 
-@each $key, $val in scale.$scale {
-  .font-size-#{$key} {
-    font-size: var(--spock-font-size-#{$key}, var(--spock-scale-#{$key}));
-  }
+[style*="--font-size"] {
+  font-size: var(--font-size);
 }
 
 @each $type in $weights {
