@@ -52,5 +52,6 @@
   "scss.lint.vendorPrefix": "warning",
   "scss.lint.zeroUnits": "error",
   "scss.validate": true,
-  "explorer.compactFolders": false
+  "explorer.compactFolders": false,
+  "html.format.wrapLineLength": 0
 }
