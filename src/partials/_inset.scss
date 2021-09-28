@@ -25,3 +25,21 @@ $types: block, inline;
     }
   }
 }
+
+[style*="--inset"] {
+  inset: var(--inset);
+}
+
+@each $type in $types {
+  [style*="--inset-#{$type}"] {
+    inset-#{$type}: var(--inset-#{$type});
+  }
+
+  [style*="--inset-#{$type}-start"] {
+    inset-#{$type}-start: var(--inset-#{$type}-start);
+  }
+
+  [style*="--inset-#{$type}-end"] {
+    inset-#{$type}-end: var(--inset-#{$type}-end);
+  }
+}

@@ -25,3 +25,21 @@ $types: block, inline;
     }
   }
 }
+
+[style*="--margin"] {
+  margin: var(--margin);
+}
+
+@each $type in $types {
+  [style*="--margin-#{$type}"] {
+    margin-#{$type}: var(--margin-#{$type});
+  }
+
+  [style*="--margin-#{$type}-start"] {
+    margin-#{$type}-start: var(--margin-#{$type}-start);
+  }
+
+  [style*="--margin-#{$type}-end"] {
+    margin-#{$type}-end: var(--margin-#{$type}-end);
+  }
+}
