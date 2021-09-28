@@ -74,9 +74,9 @@ The default scale includes five t-shirt sizes that work well with [8pt grids](ht
 Use standard CSS cascade rules to override this scale. 
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#baseline-css)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#css-reset)
 
-## Baseline CSS
+## CSS Reset
 
 We make no assumptions about your project's baseline CSS. Manually reset properties or use a [CSS Reset tool](http://meyerweb.com/eric/tools/css/reset/) as needed.
 
