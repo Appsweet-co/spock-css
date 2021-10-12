@@ -14,6 +14,18 @@ $types: baseline, center, end, flex-end, flex-start, normal, space-around, space
   }
 }
 
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
 [style*="--flex-basis"] {
   flex-basis: var(--flex-basis);
 }
