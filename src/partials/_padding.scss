@@ -6,6 +6,12 @@ $types: block, inline;
   padding: 0;
 }
 
+@each $key, $val in scale.$scale {
+  .padding-#{$key} {
+    padding: var(--spock-scale-#{$key});
+  }
+}
+
 @each $type in $types {
   .padding-#{$type}-0 {
     padding-#{$type}: 0;
