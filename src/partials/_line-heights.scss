@@ -1,0 +1,19 @@
+$lineheights: (
+  xs: 0.5,
+  sm: 1.5,
+  md: 2.5,
+  lg: 3.5,
+  xl: 4.5,
+);
+
+:root {
+  @each $key, $val in $lineheights {
+    --spock-line-height-#{$key}: #{$val};
+  }
+}
+
+@each $key, $val in $lineheights {
+  .line-height-#{$key} {
+    line-height: var(--spock-line-height-#{$key});
+  }
+}
