@@ -6,6 +6,6 @@ $types: end-end, end-start, start-end, start-start;
 
 @each $type in $types {
   [style*="--border-#{$type}-radius"] {
-    --border-#{$type}-radius: var(--border-#{$type}-radius);
+    border-#{$type}-radius: var(--border-#{$type}-radius);
   }
 }
