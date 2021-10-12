@@ -6,14 +6,14 @@ $types: block, inline;
 
 @each $type in $types {
   [style*="--border-#{$type}"] {
-    --border-#{$type}: var(--border-#{$type});
+    border-#{$type}: var(--border-#{$type});
   }
 
   [style*="--border-#{$type}-start"] {
-    --border-#{$type}-start: var(--border-#{$type}-start);
+    border-#{$type}-start: var(--border-#{$type}-start);
   }
 
   [style*="--border-#{$type}-end"] {
-    --border-#{$type}-end: var(--border-#{$type}-end);
+    border-#{$type}-end: var(--border-#{$type}-end);
   }
 }
