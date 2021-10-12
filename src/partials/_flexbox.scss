@@ -1,3 +1,19 @@
+$types: baseline, center, end, flex-end, flex-start, normal, space-around, space-between, space-evenly, start, stretch;
+
+@each $type in $types {
+  .align-items-#{$type} {
+    align-items: #{$type};
+  }
+}
+
+@each $type in $types {
+  @if $type != "baseline" {
+    .justify-content-#{$type} {
+      justify-content: #{$type};
+    }
+  }
+}
+
 [style*="--flex-basis"] {
   flex-basis: var(--flex-basis);
 }
