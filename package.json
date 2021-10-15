@@ -15,6 +15,7 @@
     "build": "npx sass ./src/index.scss:./build/index.css",
     "clean": "rm -rf ./**/*.{css,css.map,min.css,min.css.map}",
     "minify": "npx sass -s compressed ./src/index.scss:./build/index.min.css",
+    "postbuild": "npm run minify",
     "readme": "npx @appnest/readme generate"
   },
   "version": "0.1.0"
