@@ -69,7 +69,7 @@ We make no assumptions about your project's theme. Use CSS variables as needed t
 <h1 style="--color:var(--primary); --font-size:var(--size-lg)">Hello World</h1>
 ```
 
-We also make no assumptions about your project's baseline CSS. We built our library to work well with other CSS Frameworks [Bootstrap](https://getbootstrap.com/docs/5.1/layout/breakpoints/) or [Tailwind](https://tailwindcss.com/docs/breakpoints).
+We also make no assumptions about your project's baseline CSS. We built our library to work well with other CSS Frameworks like [Bootstrap](https://getbootstrap.com/docs/5.1/layout/breakpoints/) or [Tailwind](https://tailwindcss.com/docs/breakpoints).
 
 ### Verbose Names
 
