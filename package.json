@@ -5,16 +5,17 @@
     "css",
     "library",
     "logical",
+    "npm",
     "properties",
     "utility"
   ],
   "license": "MIT",
-  "main": "build/index.min.css",
+  "main": "dist/spock.min.css",
   "name": "@appsweet-co/spock-css",
   "scripts": {
-    "build": "npx sass ./src/index.scss:./build/index.css",
+    "build": "npx sass ./src/index.scss:./dist/spock.css",
     "clean": "rm -rf ./**/*.{css,css.map,min.css,min.css.map}",
-    "minify": "npx sass -s compressed ./src/index.scss:./build/index.min.css",
+    "minify": "npx sass -s compressed ./src/index.scss:./dist/spock.min.css",
     "postbuild": "npm run minify",
     "readme": "npx @appnest/readme generate"
   },
