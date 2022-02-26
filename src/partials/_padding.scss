@@ -1,37 +1,4 @@
-@use "./scale";
-
 $types: block, inline;
-
-.padding-0 {
-  padding: 0;
-}
-
-@each $key, $val in scale.$scale {
-  .padding-#{$key} {
-    padding: var(--spock-scale-#{$key});
-  }
-}
-
-@each $type in $types {
-  .padding-#{$type}-0 {
-    padding-#{$type}: 0;
-  }
-
-  @each $key, $val in scale.$scale {
-    .padding-#{$type}-#{$key} {
-      padding-#{$type}: var(--spock-scale-#{$key});
-    }
-
-    .padding-#{$type}-start-#{$key} {
-      padding-#{$type}-start: var(--spock-scale-#{$key});
-    }
-
-    .padding-#{$type}-end-#{$key} {
-      padding-#{$type}-end: var(--spock-scale-#{$key});
-    }
-  }
-}
-
 [style*="--padding"] {
   padding: var(--padding);
 }
