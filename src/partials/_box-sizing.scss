@@ -1,7 +1,3 @@
-$types: border, content;
-
-@each $type in $types {
-  .box-sizing-#{$type}-box {
-    box-sizing: #{$type}-box;
-  }
+[style*="--box-sizing"] {
+  box-sizing: var(--box-sizing);
 }

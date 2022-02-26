@@ -1,7 +1,3 @@
-$types: start, center, end, justify;
-
-@each $type in $types {
-  .text-align-#{$type} {
-    text-align: #{$type};
-  }
+[style*="--text-align"] {
+  text-align: var(--text-align);
 }

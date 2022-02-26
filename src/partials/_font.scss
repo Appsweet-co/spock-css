@@ -1,13 +1,7 @@
-@use "./scale";
-
-$weights: 100, 200, 300, 400, 500, 600, 700, 800, 900, bold, bolder, lighter, normal;
-
 [style*="--font-size"] {
   font-size: var(--font-size);
 }
 
-@each $type in $weights {
-  .font-weight-#{$type} {
-    font-weight: #{$type};
-  }
+[style*="--font-weight"] {
+  font-weight: var(--font-weight);
 }

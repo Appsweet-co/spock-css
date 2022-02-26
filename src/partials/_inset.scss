@@ -1,45 +1,13 @@
-@use "./scale";
-
 $types: block, inline;
-
-.inset-0 {
-  inset: 0;
-}
-
-@each $type in $types {
-  .inset-#{$type}-0 {
-    inset-#{$type}: 0;
-  }
-
-  @each $key, $val in scale.$scale {
-    .inset-#{$type}-#{$key} {
-      inset-#{$type}: var(--spock-scale-#{$key});
-    }
-
-    .inset-#{$type}-start-#{$key} {
-      inset-#{$type}-start: var(--spock-scale-#{$key});
-    }
-
-    .inset-#{$type}-end-#{$key} {
-      inset-#{$type}-end: var(--spock-scale-#{$key});
-    }
-  }
-}
 
 [style*="--inset"] {
   inset: var(--inset);
 }
 
+$types: block, inline;
+
 @each $type in $types {
   [style*="--inset-#{$type}"] {
     inset-#{$type}: var(--inset-#{$type});
-  }
-
-  [style*="--inset-#{$type}-start"] {
-    inset-#{$type}-start: var(--inset-#{$type}-start);
-  }
-
-  [style*="--inset-#{$type}-end"] {
-    inset-#{$type}-end: var(--inset-#{$type}-end);
   }
 }

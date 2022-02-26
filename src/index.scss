@@ -1,16 +1,13 @@
-@use "./partials/scale";
-@use "./partials/vars";
-
 @use "./partials/box-sizing";
 @use "./partials/display";
 @use "./partials/position";
 @use "./partials/inset";
-@use "./partials/dimensions";
 @use "./partials/aspect-ratio";
+@use "./partials/dimensions";
 
-@use "./partials/flexbox";
-@use "./partials/margin";
-@use "./partials/padding";
+@use "./partials/flexbox"; // <- TODO
+@use "./partials/margin"; // <- TODO
+@use "./partials/padding"; // <- TODO
 
 @use "./partials/border";
 @use "./partials/border-radius";
