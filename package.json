@@ -1,6 +1,6 @@
 {
   "author": "Appsweet.co <https://appsweet.co>",
-  "description": "A lightweight CSS utility library using logical properties",
+  "description": "Lightweight CSS utilities using logical properties and CSS variables",
   "keywords": [
     "css",
     "library",
