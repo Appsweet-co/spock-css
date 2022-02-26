@@ -2,7 +2,7 @@
   "badges": [],
   "checkLinks": true,
   "headingPrefix": {},
-  "line": "aqua",
+  "line": "none",
   "logo": {
     "src": "assets/readme/spock.jpeg",
     "width": "250"
