@@ -1,7 +1,9 @@
-<!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️--><p align="center">
+<p align="center">
   <img src="assets/readme/spock.jpeg" alt="Logo" width="250" height="auto" />
 </p>
+
 <h1 align="center">@appsweet-co/spock-css</h1>
+
 <p align="center">
   <b>Lightweight CSS utilities using logical properties and CSS variables</b></br>
   <sub><sub>
@@ -9,11 +11,7 @@
 
 <br />
 
-
 Spock CSS is a lightweight CSS utility library. It uses [logical properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties) and [CSS Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Variables) to keep things small and easy to work with.
-
-
-[](#quick-start)
 
 ## Quick Start
 
@@ -23,7 +21,7 @@ Install Spock CSS using npm.
 npm i @appsweet-co/spock-css
 ```
 
-Import the CSS files as needed.
+Import the CSS file as needed.
 
 ```css
 @import "~@appsweet-co/spock-css/build/spock.min.css";
@@ -38,9 +36,6 @@ You can also import Spock CSS directly from a CDN.
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@appsweet-co/spock-css@latest/dist/spock.min.css">
 ```
-
-
-[](#design-goals)
 
 ## Design Goals
 
@@ -85,12 +80,3 @@ Abbreviations are hard to understand. Our utility names mirror the selectors the
   <h1 style="--text-align:center">Hello World</h1>
 </div>
 ```
-
-
-[](#updating-this-readme)
-
-## Updating This README
-
-We generate this README with the [@appnest/readme](https://github.com/andreasbm/readme) tool.
-
-Run `npx @appnest/readme generate` or `npm run readme` to update this file.
