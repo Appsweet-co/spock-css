@@ -37,6 +37,8 @@ You can also import Spock CSS directly from a CDN.
 <link rel="stylesheet" href="https://unpkg.com/browse/@appsweet-co/spock-css@latest/dist/spock.min.css">
 ```
 
+Remember to replace `latest` with a specifc version number when using the CDN. See [Unpkg](https://unpkg.com/) and [jsDelivr](https://www.jsdelivr.com/) for details.
+
 ## Design Goals
 
 ### Utility First
