@@ -30,11 +30,11 @@ Import the CSS file as needed.
 You can also import Spock CSS directly from a CDN.
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/browse/@appsweet-co/spock-css@latest/dist/spock.min.css">
-
-<!-- OR -->
-
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@appsweet-co/spock-css@latest/dist/spock.min.css">
+  
+<!-- OR -->
+  
+<link rel="stylesheet" href="https://unpkg.com/browse/@appsweet-co/spock-css@latest/dist/spock.min.css">
 ```
 
 ## Design Goals
