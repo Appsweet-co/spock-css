@@ -59,6 +59,8 @@ We use [logical properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS
 
 We use [CSS Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Variables) instead of CSS Classes. This keeps our library small and universal.
 
+:dart: ***PRO TIP: See [Bonsai CSS](https://www.bonsaicss.com/#utility-complete-css) for more info on why CSS Variables are a good thing.***
+
 ### Native CSS Functions
 
 We encourage the use of [native CSS functions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#math_functions) instead of traditional breakpoints like you see in frameworks like [Bootstrap](https://getbootstrap.com/docs/5.1/layout/breakpoints/) or [Tailwind](https://tailwindcss.com/docs/breakpoints). This keeps our library small and makes it easy for your code to work across all screens sizes.
