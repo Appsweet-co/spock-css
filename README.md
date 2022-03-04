@@ -82,3 +82,66 @@ Abbreviations are hard to understand. Our utility names mirror the selectors the
   <h1 style="--text-align:center">Hello World</h1>
 </div>
 ```
+
+## Full List of Utils
+
+- `--align-content`
+- `--align-items`
+- `--align-self`
+- `--aspect-ratio`
+- `--background-color`
+- `--block-size`
+- `--border-block-end`
+- `--border-block-start`
+- `--border-block`
+- `--border-end-end-radius`
+- `--border-end-start-radius`
+- `--border-inline-end`
+- `--border-inline-start`
+- `--border-inline`
+- `--border-radius`
+- `--border-start-end-radius`
+- `--border-start-start-radius`
+- `--border`
+- `--box-sizing`
+- `--color`
+- `--column-gap`
+- `--display`
+- `--flex-basis`
+- `--flex-direction`
+- `--flex-flow`
+- `--flex-grow`
+- `--flex-shrink`
+- `--flex-wrap`
+- `--flex`
+- `--font-size`
+- `--font-weight`
+- `--gap`
+- `--inline-size`
+- `--inset-block`
+- `--inset-inline`
+- `--inset`
+- `--justify-content`
+- `--line-height`
+- `--margin-block-end`
+- `--margin-block-start`
+- `--margin-block`
+- `--margin-inline-end`
+- `--margin-inline-start`
+- `--margin-inline`
+- `--margin`
+- `--max-block-size`
+- `--max-inline-size`
+- `--min-block-size`
+- `--min-inline-size`
+- `--order`
+- `--padding-block-end`
+- `--padding-block-start`
+- `--padding-block`
+- `--padding-inline-end`
+- `--padding-inline-start`
+- `--padding-inline`
+- `--padding`
+- `--position`
+- `--row-gap`
+- `--text-align`
