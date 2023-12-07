@@ -1,0 +1,59 @@
+[style*="--grid"] {
+    --grid: var(--grid);
+}
+
+[style*="--grid-area"] {
+    --grid-area: var(--grid-area);
+}
+
+[style*="--grid-auto-columns"] {
+    --grid-auto-columns: var(--grid-auto-columns);
+}
+
+[style*="--grid-auto-flow"] {
+    --grid-auto-flow: var(--grid-auto-flow);
+}
+
+[style*="--grid-auto-rows"] {
+    --grid-auto-rows: var(--grid-auto-rows);
+}
+
+[style*="--grid-column"] {
+    --grid-column: var(--grid-column);
+}
+
+[style*="--grid-column-end"] {
+    --grid-column-end: var(--grid-column-end);
+}
+
+[style*="--grid-column-start"] {
+    --grid-column-start: var(--grid-column-start);
+}
+
+[style*="--grid-row"] {
+    --grid-row: var(--grid-row);
+}
+
+[style*="--grid-row-end"] {
+    --grid-row-end: var(--grid-row-end);
+}
+
+[style*="--grid-row-start"] {
+    --grid-row-start: var(--grid-row-start);
+}
+
+[style*="--grid-template"] {
+    --grid-template: var(--grid-template);
+}
+
+[style*="--grid-template-areas"] {
+    --grid-template-areas: var(--grid-template-areas);
+}
+
+[style*="--grid-template-columns"] {
+    --grid-template-columns: var(--grid-template-columns);
+}
+
+[style*="--grid-template-rows"] {
+    --grid-template-rows: var(--grid-template-rows);
+}
