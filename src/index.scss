@@ -10,11 +10,15 @@
 @use "./partials/margin";
 @use "./partials/padding";
 
+@use "./partials/background";
+@use "./partials/backdrop-filter";
+@use "./partials/clip-path";
+
 @use "./partials/border";
-@use "./partials/border-radius";
 
 @use "./partials/text";
 @use "./partials/font";
 @use "./partials/line-height";
 
 @use "./partials/color";
+@use "./partials/accent-color";
