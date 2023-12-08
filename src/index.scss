@@ -1,5 +1,7 @@
 @use "./partials/box-sizing";
+@use "./partials/touch-action";
 @use "./partials/display";
+@use "./partials/visibility";
 @use "./partials/position";
 @use "./partials/aspect-ratio";
 @use "./partials/inset";
@@ -22,3 +24,5 @@
 
 @use "./partials/color";
 @use "./partials/accent-color";
+
+@use "./partials/z-index";
