@@ -1,7 +1,10 @@
 @use "./partials/box-sizing";
 @use "./partials/touch-action";
+@use "./partials/appearance";
 @use "./partials/display";
 @use "./partials/visibility";
+@use "./partials/backface-visibility";
+
 @use "./partials/position";
 @use "./partials/aspect-ratio";
 @use "./partials/inset";
@@ -9,6 +12,7 @@
 
 @use "./partials/grid";
 @use "./partials/flexbox";
+@use "./partials/flexbox-align";
 @use "./partials/margin";
 @use "./partials/padding";
 
@@ -17,6 +21,8 @@
 @use "./partials/clip-path";
 
 @use "./partials/border";
+@use "./partials/box-shadow";
+@use "./partials/box-decoration-break"
 
 @use "./partials/text";
 @use "./partials/font";
