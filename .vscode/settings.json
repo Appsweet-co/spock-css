@@ -28,7 +28,7 @@
   "css.lint.zeroUnits": "error",
   "css.validate": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
+    "source.fixAll": "always"
   },
   "editor.formatOnSave": true,
   "json.format.enable": true,
