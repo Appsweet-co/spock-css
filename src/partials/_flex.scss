@@ -1,0 +1,27 @@
+[style*="--flex"] {
+  flex: var(--flex);
+}
+
+[style*="--flex-basis"] {
+  flex-basis: var(--flex-basis);
+}
+
+[style*="--flex-direction"] {
+  flex-direction: var(--flex-direction);
+}
+
+[style*="--flex-flow"] {
+  flex-flow: var(--flex-flow);
+}
+
+[style*="--flex-grow"] {
+  flex-grow: var(--flex-grow);
+}
+
+[style*="--flex-shrink"] {
+  flex-shrink: var(--flex-shrink);
+}
+
+[style*="--flex-wrap"] {
+  flex-wrap: var(--flex-wrap);
+}
