@@ -1,0 +1,39 @@
+[style*="--columns"] {
+  columns: var(--columns);
+}
+
+[style*="--column-count"] {
+  column-count: var(--column-count);
+}
+
+[style*="--column-fill"] {
+  column-fill: var(--column-fill);
+}
+
+[style*="--column-gap"] {
+  column-gap: var(--column-gap);
+}
+
+[style*="--column-rule"] {
+  column-rule: var(--column-rule);
+}
+
+[style*="--column-rule-color"] {
+  column-rule-color: var(--column-rule-color);
+}
+
+[style*="--column-rule-style"] {
+  column-rule-style: var(--column-rule-style);
+}
+
+[style*="--column-rule-width"] {
+  column-rule-width: var(--column-rule-width);
+}
+
+[style*="--column-span"] {
+  column-span: var(--column-span);
+}
+
+[style*="--column-width"] {
+  column-width: var(--column-width);
+}

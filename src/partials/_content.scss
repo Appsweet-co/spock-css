@@ -1,0 +1,7 @@
+[style*="--content-before"]::before {
+  content: var(--content-before);
+}
+
+[style*="--content-after"]::after {
+  content: var(--content-after);
+}

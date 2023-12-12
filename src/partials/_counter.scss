@@ -1,0 +1,11 @@
+[style*="--counter-increment"] {
+  counter-increment: var(--counter-increment);
+}
+
+[style*="--counter-reset"] {
+  counter-reset: var(--counter-reset);
+}
+
+[style*="--counter-set"] {
+  counter-set: var(--counter-set);
+}
