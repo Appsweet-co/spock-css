@@ -1,0 +1,39 @@
+[style*="--animation"] {
+  animation: var(--animation);
+}
+
+[style*="--animation-composition"] {
+  animation-composition: var(--animation-composition);
+}
+
+[style*="--animation-delay"] {
+  animation-delay: var(--animation-delay);
+}
+
+[style*="--animation-direction"] {
+  animation-direction: var(--animation-direction);
+}
+
+[style*="--animation-duration"] {
+  animation-duration: var(--animation-duration);
+}
+
+[style*="--animation-fill-mode"] {
+  animation-fill-mode: var(--animation-fill-mode);
+}
+
+[style*="--animation-iteration-count"] {
+  animation-iteration-count: var(--animation-iteration-count);
+}
+
+[style*="--animation-name"] {
+  animation-name: var(--animation-name);
+}
+
+[style*="--animation-play-state"] {
+  animation-play-state: var(--animation-play-state);
+}
+
+[style*="--animation-timing-function"] {
+  animation-timing-function: var(--animation-timing-function);
+}

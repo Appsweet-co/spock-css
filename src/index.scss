@@ -1,34 +1,20 @@
-@use "./partials/box-sizing";
-@use "./partials/touch-action";
+@use "./partials/all";
 @use "./partials/appearance";
-@use "./partials/display";
-@use "./partials/visibility";
-@use "./partials/backface-visibility";
 
-@use "./partials/position";
 @use "./partials/aspect-ratio";
-@use "./partials/inset";
-@use "./partials/dimensions";
+@use "./partials/block-size";
+@use "./partials/box";
+@use "./partials/break";
 
-@use "./partials/grid";
 @use "./partials/flexbox";
-@use "./partials/flexbox-align";
-@use "./partials/margin";
-@use "./partials/padding";
 
-@use "./partials/background";
+@use "./partials/backface-visibility";
 @use "./partials/backdrop-filter";
-@use "./partials/clip-path";
 
 @use "./partials/border";
-@use "./partials/box-shadow";
-@use "./partials/box-decoration-break";
 
-@use "./partials/text";
-@use "./partials/font";
-@use "./partials/line-height";
-
-@use "./partials/color";
+@use "./partials/background";
 @use "./partials/accent-color";
 
-@use "./partials/z-index";
+@use "./partials/animation";
+
