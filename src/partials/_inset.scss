@@ -1,0 +1,27 @@
+[style*="--inset"] {
+  inset: var(--inset);
+}
+
+[style*="--inset-block"] {
+  inset-block: var(--inset-block);
+}
+
+[style*="--inset-block-end"] {
+  inset-block-end: var(--inset-block-end);
+}
+
+[style*="--inset-block-start"] {
+  inset-block-start: var(--inset-block-start);
+}
+
+[style*="--inset-inline"] {
+  inset-inline: var(--inset-inline);
+}
+
+[style*="--inset-inline-end"] {
+  inset-inline-end: var(--inset-inline-end);
+}
+
+[style*="--inset-inline-start"] {
+  inset-inline-start: var(--inset-inline-start);
+}
