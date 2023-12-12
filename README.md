@@ -47,6 +47,8 @@ Utility styles are easy to reuse. They do one thing in the same way every time w
 
 :dart: ***PRO TIP: Read [this article](https://frontstuff.io/in-defense-of-utility-first-css) for more info on why Utility-First CSS is a good thing.***
 
+We include utilities for most [CSS Properties](https://developer.mozilla.org/en-US/docs/Web/CSS) except for deprecated and experimental properties, and properties that use [traditional directions and dimensions](#logical-properties).
+
 ### Logical Properties
 
 We use [logical properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties) instead of traditional directions and dimensions. This makes it easy to localize your projects for right-to-left languages. Example:
