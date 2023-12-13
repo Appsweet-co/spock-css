@@ -1,0 +1,27 @@
+[style*="--margin"] {
+  margin: var(--margin);
+}
+
+[style*="--margin-block"] {
+  margin-block: var(--margin-block);
+}
+
+[style*="--margin-block-end"] {
+  margin-block-end: var(--margin-block-end);
+}
+
+[style*="--margin-block-start"] {
+  margin-block-start: var(--margin-block-start);
+}
+
+[style*="--margin-inline"] {
+  margin-inline: var(--margin-inline);
+}
+
+[style*="--margin-inline-end"] {
+  margin-inline-end: var(--margin-inline-end);
+}
+
+[style*="--margin-inline-start"] {
+  margin-inline-start: var(--margin-inline-start);
+}
