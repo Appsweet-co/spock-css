@@ -1,0 +1,23 @@
+[style*="--overflow"] {
+  overflow: var(--overflow);
+}
+
+[style*="--overflow-anchor"] {
+  overflow-anchor: var(--overflow-anchor);
+}
+
+[style*="--overflow-block"] {
+  overflow-block: var(--overflow-block);
+}
+
+[style*="--overflow-clip-margin"] {
+  overflow-clip-margin: var(--overflow-clip-margin);
+}
+
+[style*="--overflow-inline"] {
+  overflow-inline: var(--overflow-inline);
+}
+
+[style*="--overflow-wrap"] {
+  overflow-wrap: var(--overflow-wrap);
+}

@@ -1,0 +1,11 @@
+[style*="--overscroll-behavior"] {
+  overscroll-behavior: var(--overscroll-behavior);
+}
+
+[style*="--overscroll-behavior-block"] {
+  overscroll-behavior-block: var(--overscroll-behavior-block);
+}
+
+[style*="--overscroll-behavior-inline"] {
+  overscroll-behavior-inline: var(--overscroll-behavior-inline);
+}
