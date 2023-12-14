@@ -1,0 +1,27 @@
+[style*="--padding"] {
+  padding: var(--padding);
+}
+
+[style*="--padding-block"] {
+  padding-block: var(--padding-block);
+}
+
+[style*="--padding-block-end"] {
+  padding-block-end: var(--padding-block-end);
+}
+
+[style*="--padding-block-start"] {
+  padding-block-start: var(--padding-block-start);
+}
+
+[style*="--padding-inline"] {
+  padding-inline: var(--padding-inline);
+}
+
+[style*="--padding-inline-end"] {
+  padding-inline-end: var(--padding-inline-end);
+}
+
+[style*="--padding-inline-start"] {
+  padding-inline-start: var(--padding-inline-start);
+}

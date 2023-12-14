@@ -1,0 +1,15 @@
+[style*="--page"] {
+  page: var(--page);
+}
+
+[style*="--page-break-after"] {
+  page-break-after: var(--page-break-after);
+}
+
+[style*="--page-break-before"] {
+  page-break-before: var(--page-break-before);
+}
+
+[style*="--page-break-inside"] {
+  page-break-inside: var(--page-break-inside);
+}
