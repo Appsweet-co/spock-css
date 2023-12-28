@@ -1,0 +1,19 @@
+[style*="--transition"] {
+  transition: var(--transition);
+}
+
+[style*="--transition-delay"] {
+  transition-delay: var(--transition-delay);
+}
+
+[style*="--transition-duration"] {
+  transition-duration: var(--transition-duration);
+}
+
+[style*="--transition-property"] {
+  transition-property: var(--transition-property);
+}
+
+[style*="--transition-timing-function"] {
+  transition-timing-function: var(--transition-timing-function);
+}

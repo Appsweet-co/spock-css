@@ -1,0 +1,15 @@
+[style*="--transform"] {
+  transform: var(--transform);
+}
+
+[style*="--transform-box"] {
+  transform-box: var(--transform-box);
+}
+
+[style*="--transform-origin"] {
+  transform-origin: var(--transform-origin);
+}
+
+[style*="--transform-style"] {
+  transform-style: var(--transform-style);
+}
