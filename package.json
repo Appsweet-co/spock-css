@@ -18,5 +18,5 @@
     "minify": "npx sass -s compressed ./src/index.scss:./dist/spock.min.css",
     "postbuild": "npm run minify"
   },
-  "version": "0.4.1"
+  "version": "0.5.0"
 }
