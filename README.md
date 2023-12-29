@@ -21,10 +21,10 @@ Install Spock CSS using npm.
 npm i @appsweet-co/spock-css
 ```
 
-Import the CSS file as needed.
+Add the CSS file to your HTML as needed.
 
-```css
-@import "~@appsweet-co/spock-css/build/spock.min.css";
+```html
+<link rel="stylesheet" href="./node_modules/@appsweet-co/spock-css/dist/spock.min.css">
 ```
 
 You can also import Spock CSS directly from a CDN.
