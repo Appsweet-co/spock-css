@@ -1,0 +1,15 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/universal
+{
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "davidanson.vscode-markdownlint",
+        "richie5um2.vscode-sort-json",
+        "sibiraj-s.vscode-scss-formatter"
+      ]
+    }
+  },
+  "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+  "name": "@appsweet-co/spock-css"
+}
