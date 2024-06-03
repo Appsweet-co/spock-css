@@ -1,3 +1,11 @@
 [style*="--color"] {
   color: var(--color);
 }
+
+[style*="--color-interpolation"] {
+  color-interpolation: var(--color-interpolation);
+}
+
+[style*="--color-scheme"] {
+  color-scheme: var(--color-scheme);
+}
