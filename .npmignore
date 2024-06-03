@@ -1,9 +1,7 @@
+.devcontainer/
 .vscode/
 src/
 
 .editorconfig
 .gitignore
 .npmrc
-_config.yml
-blueprint.json
-blueprint.md
