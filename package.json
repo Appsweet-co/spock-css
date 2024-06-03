@@ -13,10 +13,8 @@
   "main": "dist/spock.min.css",
   "name": "@appsweet-co/spock-css",
   "scripts": {
-    "build": "npx sass ./src/index.scss:./dist/spock.css",
-    "clean": "rm -rf ./**/*.{css,css.map,min.css,min.css.map}",
-    "minify": "npx sass -s compressed ./src/index.scss:./dist/spock.min.css",
-    "postbuild": "npm run minify"
+    "build": "npx lightningcss-cli --bundle --minify --sourcemap --error-recovery src/index.css -o dist/spock.min.css",
+    "prebuild": "rm -f dist/*"
   },
   "version": "0.7.0"
 }
