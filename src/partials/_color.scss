@@ -1,5 +1,5 @@
-[style*="--color"] {
-  color: var(--color);
+[style*="--color-interpolation-filters"] {
+  color-interpolation-filters: var(--color-interpolation-filters);
 }
 
 [style*="--color-interpolation"] {
@@ -8,4 +8,8 @@
 
 [style*="--color-scheme"] {
   color-scheme: var(--color-scheme);
+}
+
+[style*="--color"] {
+  color: var(--color);
 }
