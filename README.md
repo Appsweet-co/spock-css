@@ -50,7 +50,7 @@ Utility styles are easy to reuse. They do one thing in the same way every time w
 
 ### Baseline Support
 
-We include utilities for most CSS Properties that meet [Baseline requirements](https://web.dev/baseline) for "Newly available" and "Widely available." We exclude deprecated, experimental, and non-standard properties; properties with "Limited availablity;" `float`; and other properties that use traditional directions and dimensions.
+We include utilities for most CSS Properties that meet [Baseline requirements](https://web.dev/baseline) for "Newly available" and "Widely available." We exclude deprecated, experimental, and non-standard properties; properties with "Limited availablity;" properties related to SVG graphics; `float`; and other properties that use traditional directions and dimensions.
 
 ### Logical Properties
 
