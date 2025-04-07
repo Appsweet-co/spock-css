@@ -1,3 +1,7 @@
+[style*="--contain"] { 
+  contain: var(--contain); 
+}
+
 [style*="--contain-intrinsic-block-size"] { 
   contain-intrinsic-block-size: var(--contain-intrinsic-block-size); 
 }
@@ -16,8 +20,4 @@
 
 [style*="--contain-intrinsic-width"] { 
   contain-intrinsic-width: var(--contain-intrinsic-width); 
-}
-
-[style*="--contain"] { 
-  contain: var(--contain); 
 }

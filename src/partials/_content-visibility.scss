@@ -1,11 +1,3 @@
-[style*="--container-name"] {
-  container-name: var(--container-name);
-}
-
-[style*="--container-type"] {
-  container-type: var(--container-type);
-}
-
-[style*="--container"] {
-  container: var(--container);
+[style*="--content-visibility"] {
+  content-visibility: var(--content-visibility);
 }
