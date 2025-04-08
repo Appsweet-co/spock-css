@@ -1,7 +1,15 @@
-[style*="--min-block-size"] {
-  min-block-size: var(--min-block-size);
+[style="--min-block-size"] { 
+  min-block-size: var(--min-block-size); 
 }
 
-[style*="--min-inline-size"] {
-  min-inline-size: var(--min-inline-size);
+[style="--min-height"] { 
+  min-height: var(--min-height); 
+}
+
+[style="--min-inline-size"] { 
+  min-inline-size: var(--min-inline-size); 
+}
+
+[style="--min-width"] { 
+  min-width: var(--min-width); 
 }
