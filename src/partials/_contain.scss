@@ -1,3 +1,23 @@
-[style*="--contain"] {
-  contain: var(--contain);
+[style*="--contain"] { 
+  contain: var(--contain); 
+}
+
+[style*="--contain-intrinsic-block-size"] { 
+  contain-intrinsic-block-size: var(--contain-intrinsic-block-size); 
+}
+
+[style*="--contain-intrinsic-height"] { 
+  contain-intrinsic-height: var(--contain-intrinsic-height); 
+}
+
+[style*="--contain-intrinsic-inline-size"] { 
+  contain-intrinsic-inline-size: var(--contain-intrinsic-inline-size); 
+}
+
+[style*="--contain-intrinsic-size"] { 
+  contain-intrinsic-size: var(--contain-intrinsic-size); 
+}
+
+[style*="--contain-intrinsic-width"] { 
+  contain-intrinsic-width: var(--contain-intrinsic-width); 
 }

@@ -45,34 +45,38 @@ Remember to replace `latest` with a specifc version number when using the CDN. S
 
 Utility styles are easy to reuse. They do one thing in the same way every time with no side effects. They keep the [CSS specificity](https://specificity.keegan.st/) flat and eliminate the need to [invent new names](https://en.wikipedia.org/wiki/Principle_of_least_astonishment).
 
-:dart: ***PRO TIP: Read [this article](https://frontstuff.io/in-defense-of-utility-first-css) for more info on why Utility-First CSS is a good thing.***
+> [!TIP]
+> ***Read [this article](https://frontstuff.io/in-defense-of-utility-first-css) for more info on why Utility-First CSS is a good thing.***
 
-We include utilities for most [CSS Properties](https://developer.mozilla.org/en-US/docs/Web/CSS). We exclude deprecated, experimental, and non-standard properties; `float`; and properties that use [traditional directions and dimensions](#logical-properties).
+### Baseline Support
+
+We include utilities for most CSS Properties that meet [Baseline requirements](https://web.dev/baseline) for "Newly available" and "Widely available." We exclude deprecated, experimental, and non-standard properties; properties with "Limited availablity;" properties related to SVG graphics; `float`; and other properties that use traditional directions and dimensions.
 
 ### Logical Properties
 
 We use [logical properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties) instead of traditional directions and dimensions. This makes it easy to localize your projects for right-to-left languages. Example:
 
 ```html
-<h1 style="--margin-block-end:2rem">Hello World</h1>
+<h1 style="--margin-block-end: 2rem;">Hello World</h1>
 ```
 
 ### CSS Variables
 
 We use [CSS Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Variables) instead of CSS Classes. This keeps our library small and universal.
 
-:dart: ***PRO TIP: See [Bonsai CSS](https://www.bonsaicss.com/#utility-complete-css) for more info on why CSS Variables are a good thing.***
+> [!TIP]
+> ***See [Bonsai CSS](https://www.bonsaicss.com/#utility-complete-css) for more info on why CSS Variables are a good thing.***
 
 ### Native CSS Functions
 
-We encourage the use of [native CSS functions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#math_functions) instead of traditional breakpoints like you see in frameworks like [Bootstrap](https://getbootstrap.com/docs/5.1/layout/breakpoints/) or [Tailwind](https://tailwindcss.com/docs/breakpoints). This keeps our library small and makes it easy for your code to work across all screens sizes.
+We encourage the use of [native CSS functions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions) instead of traditional breakpoints like you see in frameworks like [Bootstrap](https://getbootstrap.com/docs/5.1/layout/breakpoints/) or [Tailwind](https://tailwindcss.com/docs/breakpoints). This keeps our library small and makes it easy for your code to work across all screens sizes.
 
 ### Theme Agnostic
 
 We make no assumptions about your project's theme. Use CSS variables as needed to set properties. Example:
 
 ```html
-<h1 style="--color:var(--primary); --font-size:var(--size-lg)">Hello World</h1>
+<h1 style="--color: var(--primary); --font-size: var(--size-lg);">Hello World</h1>
 ```
 
 We also make no assumptions about your project's baseline CSS. We built our library to work well with other CSS Frameworks like [Bootstrap](https://getbootstrap.com/docs/5.1/layout/breakpoints/) or [Tailwind](https://tailwindcss.com/docs/breakpoints).
@@ -82,7 +86,7 @@ We also make no assumptions about your project's baseline CSS. We built our libr
 Abbreviations are hard to understand. Our utility names mirror the selectors they reference. This makes it easy to read and write. Examples:
 
 ```html
-<div style="--aspect-ratio:1; --width:100vw">
-  <h1 style="--text-align:center">Hello World</h1>
+<div style="--aspect-ratio: 1; --width: 100dvw;">
+  <h1 style="--text-align: center;">Hello World</h1>
 </div>
 ```

@@ -1,7 +1,15 @@
-[style*="--max-block-size"] {
-  max-block-size: var(--max-block-size);
+[style*="--max-block-size"] { 
+  max-block-size: var(--max-block-size); 
 }
 
-[style*="--max-inline-size"] {
-  max-inline-size: var(--max-inline-size);
+[style*="--max-height"] { 
+  max-height: var(--max-height); 
+}
+
+[style*="--max-inline-size"] { 
+  max-inline-size: var(--max-inline-size); 
+}
+
+[style*="--max-width"] { 
+  max-width: var(--max-width); 
 }

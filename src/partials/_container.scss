@@ -1,3 +1,11 @@
 [style*="--container"] {
   container: var(--container);
 }
+
+[style*="--container-name"] {
+  container-name: var(--container-name);
+}
+
+[style*="--container-type"] {
+  container-type: var(--container-type);
+}

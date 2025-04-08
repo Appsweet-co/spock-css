@@ -2,6 +2,10 @@
   color: var(--color);
 }
 
+[style*="--color-interpolation-filters"] {
+  color-interpolation-filters: var(--color-interpolation-filters);
+}
+
 [style*="--color-interpolation"] {
   color-interpolation: var(--color-interpolation);
 }
